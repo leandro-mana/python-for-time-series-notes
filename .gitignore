@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# mypy / ruff / pytest
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+.logs/
+
+# Reference books (kept locally, not committed)
+docs/*.pdf
+
+# Roadmap (local planning, not committed)
+ROADMAP.md
+
+# Generated plot images
+*.png
+!src/data/*.png
+
+# Model files
+*.h5
+*.keras
+*.savedmodel/
